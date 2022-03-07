@@ -1,4 +1,4 @@
-# AWS Lamda Zip Generator
+# AWS Lamda Helper
 This script help developer to create zip file containing lambda_function with its external library that need to be included.
 
 ## Project Folder Structure
@@ -11,7 +11,7 @@ Any external library that need to be imported must be written in requirement.txt
 
 ## How to Use
 ````bash
-bash zip_generator.sh {folder_name}
+bash aws-lambda-helper.sh generate_zip {folder_name}
 ````
 It will create zip with name {folder_name}.zip based on {folder_name}
 
